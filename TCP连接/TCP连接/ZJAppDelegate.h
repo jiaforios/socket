@@ -1,5 +1,5 @@
 //
-//  QFAppDelegate.h
+//  ZJAppDelegate.h
 //  TCP连接
 //
 //  Created by Honey on 15/6/18.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QFAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ZJAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

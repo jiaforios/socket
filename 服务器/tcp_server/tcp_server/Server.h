@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Server : ViewController
+@interface Server : NSViewController
 
 @end

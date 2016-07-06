@@ -12,7 +12,7 @@
 		40AD207A1B329E410056B10D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AD20791B329E410056B10D /* UIKit.framework */; };
 		40AD20801B329E410056B10D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40AD207E1B329E410056B10D /* InfoPlist.strings */; };
 		40AD20821B329E410056B10D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD20811B329E410056B10D /* main.m */; };
-		40AD20861B329E410056B10D /* QFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD20851B329E410056B10D /* QFAppDelegate.m */; };
+		40AD20861B329E410056B10D /* ZJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD20851B329E410056B10D /* ZJAppDelegate.m */; };
 		40AD20881B329E410056B10D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AD20871B329E410056B10D /* Images.xcassets */; };
 		40AD208F1B329E410056B10D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AD208E1B329E410056B10D /* XCTest.framework */; };
 		40AD20901B329E410056B10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AD20751B329E410056B10D /* Foundation.framework */; };
@@ -21,7 +21,7 @@
 		40AD209B1B329E410056B10D /* TCP__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD209A1B329E410056B10D /* TCP__Tests.m */; };
 		40AD20A91B329E4B0056B10D /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD20A61B329E4B0056B10D /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		40AD20AA1B329E4B0056B10D /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD20A81B329E4B0056B10D /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		40AD20AD1B329F8F0056B10D /* QFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD20AC1B329F8F0056B10D /* QFViewController.m */; };
+		40AD20AD1B329F8F0056B10D /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD20AC1B329F8F0056B10D /* ZJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,28 +35,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40AD20721B329E410056B10D /* TCP连接.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCP连接.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AD20721B329E410056B10D /* TCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AD20751B329E410056B10D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40AD20771B329E410056B10D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		40AD20791B329E410056B10D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		40AD207D1B329E410056B10D /* TCP连接-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCP连接-Info.plist"; sourceTree = "<group>"; };
+		40AD207D1B329E410056B10D /* TCP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCP-Info.plist"; sourceTree = "<group>"; };
 		40AD207F1B329E410056B10D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40AD20811B329E410056B10D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40AD20831B329E410056B10D /* TCP连接-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCP连接-Prefix.pch"; sourceTree = "<group>"; };
-		40AD20841B329E410056B10D /* QFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFAppDelegate.h; sourceTree = "<group>"; };
-		40AD20851B329E410056B10D /* QFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFAppDelegate.m; sourceTree = "<group>"; };
+		40AD20831B329E410056B10D /* TCP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCP-Prefix.pch"; sourceTree = "<group>"; };
+		40AD20841B329E410056B10D /* ZJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAppDelegate.h; sourceTree = "<group>"; };
+		40AD20851B329E410056B10D /* ZJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAppDelegate.m; sourceTree = "<group>"; };
 		40AD20871B329E410056B10D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		40AD208D1B329E410056B10D /* TCP连接Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCP连接Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AD208D1B329E410056B10D /* TCP.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCP.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AD208E1B329E410056B10D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		40AD20961B329E410056B10D /* TCP连接Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCP连接Tests-Info.plist"; sourceTree = "<group>"; };
+		40AD20961B329E410056B10D /* TCPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCPTests-Info.plist"; sourceTree = "<group>"; };
 		40AD20981B329E410056B10D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40AD209A1B329E410056B10D /* TCP__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCP__Tests.m; sourceTree = "<group>"; };
 		40AD20A51B329E4B0056B10D /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		40AD20A61B329E4B0056B10D /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		40AD20A71B329E4B0056B10D /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
 		40AD20A81B329E4B0056B10D /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
-		40AD20AB1B329F8F0056B10D /* QFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFViewController.h; sourceTree = "<group>"; };
-		40AD20AC1B329F8F0056B10D /* QFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFViewController.m; sourceTree = "<group>"; };
+		40AD20AB1B329F8F0056B10D /* ZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
+		40AD20AC1B329F8F0056B10D /* ZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +96,8 @@
 		40AD20731B329E410056B10D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40AD20721B329E410056B10D /* TCP连接.app */,
-				40AD208D1B329E410056B10D /* TCP连接Tests.xctest */,
+				40AD20721B329E410056B10D /* TCP.app */,
+				40AD208D1B329E410056B10D /* TCP.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,12 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				40AD20A41B329E4B0056B10D /* AsyncSocket */,
-				40AD20841B329E410056B10D /* QFAppDelegate.h */,
-				40AD20851B329E410056B10D /* QFAppDelegate.m */,
+				40AD20841B329E410056B10D /* ZJAppDelegate.h */,
+				40AD20851B329E410056B10D /* ZJAppDelegate.m */,
 				40AD20871B329E410056B10D /* Images.xcassets */,
 				40AD207C1B329E410056B10D /* Supporting Files */,
-				40AD20AB1B329F8F0056B10D /* QFViewController.h */,
-				40AD20AC1B329F8F0056B10D /* QFViewController.m */,
+				40AD20AB1B329F8F0056B10D /* ZJViewController.h */,
+				40AD20AC1B329F8F0056B10D /* ZJViewController.m */,
 			);
 			path = "TCP连接";
 			sourceTree = "<group>";
@@ -130,10 +130,10 @@
 		40AD207C1B329E410056B10D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				40AD207D1B329E410056B10D /* TCP连接-Info.plist */,
+				40AD207D1B329E410056B10D /* TCP-Info.plist */,
 				40AD207E1B329E410056B10D /* InfoPlist.strings */,
 				40AD20811B329E410056B10D /* main.m */,
-				40AD20831B329E410056B10D /* TCP连接-Prefix.pch */,
+				40AD20831B329E410056B10D /* TCP-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 		40AD20951B329E410056B10D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				40AD20961B329E410056B10D /* TCP连接Tests-Info.plist */,
+				40AD20961B329E410056B10D /* TCPTests-Info.plist */,
 				40AD20971B329E410056B10D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -170,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40AD20711B329E410056B10D /* TCP连接 */ = {
+		40AD20711B329E410056B10D /* TCP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40AD209E1B329E410056B10D /* Build configuration list for PBXNativeTarget "TCP连接" */;
+			buildConfigurationList = 40AD209E1B329E410056B10D /* Build configuration list for PBXNativeTarget "TCP" */;
 			buildPhases = (
 				40AD206E1B329E410056B10D /* Sources */,
 				40AD206F1B329E410056B10D /* Frameworks */,
@@ -182,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = "TCP连接";
+			name = TCP;
 			productName = "TCP连接";
-			productReference = 40AD20721B329E410056B10D /* TCP连接.app */;
+			productReference = 40AD20721B329E410056B10D /* TCP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		40AD208C1B329E410056B10D /* TCP连接Tests */ = {
+		40AD208C1B329E410056B10D /* TCPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40AD20A11B329E410056B10D /* Build configuration list for PBXNativeTarget "TCP连接Tests" */;
+			buildConfigurationList = 40AD20A11B329E410056B10D /* Build configuration list for PBXNativeTarget "TCPTests" */;
 			buildPhases = (
 				40AD20891B329E410056B10D /* Sources */,
 				40AD208A1B329E410056B10D /* Frameworks */,
@@ -200,9 +200,9 @@
 			dependencies = (
 				40AD20931B329E410056B10D /* PBXTargetDependency */,
 			);
-			name = "TCP连接Tests";
+			name = TCPTests;
 			productName = "TCP连接Tests";
-			productReference = 40AD208D1B329E410056B10D /* TCP连接Tests.xctest */;
+			productReference = 40AD208D1B329E410056B10D /* TCP.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 40AD206D1B329E410056B10D /* Build configuration list for PBXProject "TCP连接" */;
+			buildConfigurationList = 40AD206D1B329E410056B10D /* Build configuration list for PBXProject "TCP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40AD20711B329E410056B10D /* TCP连接 */,
-				40AD208C1B329E410056B10D /* TCP连接Tests */,
+				40AD20711B329E410056B10D /* TCP */,
+				40AD208C1B329E410056B10D /* TCPTests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,8 +265,8 @@
 			files = (
 				40AD20A91B329E4B0056B10D /* AsyncSocket.m in Sources */,
 				40AD20821B329E410056B10D /* main.m in Sources */,
-				40AD20AD1B329F8F0056B10D /* QFViewController.m in Sources */,
-				40AD20861B329E410056B10D /* QFAppDelegate.m in Sources */,
+				40AD20AD1B329F8F0056B10D /* ZJViewController.m in Sources */,
+				40AD20861B329E410056B10D /* ZJAppDelegate.m in Sources */,
 				40AD20AA1B329E4B0056B10D /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +284,7 @@
 /* Begin PBXTargetDependency section */
 		40AD20931B329E410056B10D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 40AD20711B329E410056B10D /* TCP连接 */;
+			target = 40AD20711B329E410056B10D /* TCP */;
 			targetProxy = 40AD20921B329E410056B10D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -385,9 +385,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TCP连接/TCP连接-Prefix.pch";
-				INFOPLIST_FILE = "TCP连接/TCP连接-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TCP连接/TCP-Prefix.pch";
+				INFOPLIST_FILE = "TCP连接/TCP-Info.plist";
+				PRODUCT_NAME = TCP;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,9 +398,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TCP连接/TCP连接-Prefix.pch";
-				INFOPLIST_FILE = "TCP连接/TCP连接-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TCP连接/TCP-Prefix.pch";
+				INFOPLIST_FILE = "TCP连接/TCP-Info.plist";
+				PRODUCT_NAME = TCP;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,13 +415,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TCP连接/TCP连接-Prefix.pch";
+				GCC_PREFIX_HEADER = "TCP连接/TCP-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TCP连接Tests/TCP连接Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TCP连接Tests/TCPTests-Info.plist";
+				PRODUCT_NAME = TCP;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -437,9 +437,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TCP连接/TCP连接-Prefix.pch";
-				INFOPLIST_FILE = "TCP连接Tests/TCP连接Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TCP连接/TCP-Prefix.pch";
+				INFOPLIST_FILE = "TCP连接Tests/TCPTests-Info.plist";
+				PRODUCT_NAME = TCP;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,7 +448,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40AD206D1B329E410056B10D /* Build configuration list for PBXProject "TCP连接" */ = {
+		40AD206D1B329E410056B10D /* Build configuration list for PBXProject "TCP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40AD209C1B329E410056B10D /* Debug */,
@@ -457,21 +457,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40AD209E1B329E410056B10D /* Build configuration list for PBXNativeTarget "TCP连接" */ = {
+		40AD209E1B329E410056B10D /* Build configuration list for PBXNativeTarget "TCP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40AD209F1B329E410056B10D /* Debug */,
 				40AD20A01B329E410056B10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		40AD20A11B329E410056B10D /* Build configuration list for PBXNativeTarget "TCP连接Tests" */ = {
+		40AD20A11B329E410056B10D /* Build configuration list for PBXNativeTarget "TCPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40AD20A21B329E410056B10D /* Debug */,
 				40AD20A31B329E410056B10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

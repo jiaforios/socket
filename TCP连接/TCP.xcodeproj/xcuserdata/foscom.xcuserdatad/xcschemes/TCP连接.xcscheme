@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "40AD20711B329E410056B10D"
-               BuildableName = "TCP&#x8fde;&#x63a5;.app"
-               BlueprintName = "TCP&#x8fde;&#x63a5;"
-               ReferencedContainer = "container:TCP&#x8fde;&#x63a5;.xcodeproj">
+               BuildableName = "TCP.app"
+               BlueprintName = "TCP"
+               ReferencedContainer = "container:TCP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "40AD208C1B329E410056B10D"
-               BuildableName = "TCP&#x8fde;&#x63a5;Tests.xctest"
-               BlueprintName = "TCP&#x8fde;&#x63a5;Tests"
-               ReferencedContainer = "container:TCP&#x8fde;&#x63a5;.xcodeproj">
+               BuildableName = "TCP.xctest"
+               BlueprintName = "TCPTests"
+               ReferencedContainer = "container:TCP.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "40AD20711B329E410056B10D"
-            BuildableName = "TCP&#x8fde;&#x63a5;.app"
-            BlueprintName = "TCP&#x8fde;&#x63a5;"
-            ReferencedContainer = "container:TCP&#x8fde;&#x63a5;.xcodeproj">
+            BuildableName = "TCP.app"
+            BlueprintName = "TCP"
+            ReferencedContainer = "container:TCP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "40AD20711B329E410056B10D"
-            BuildableName = "TCP&#x8fde;&#x63a5;.app"
-            BlueprintName = "TCP&#x8fde;&#x63a5;"
-            ReferencedContainer = "container:TCP&#x8fde;&#x63a5;.xcodeproj">
+            BuildableName = "TCP.app"
+            BlueprintName = "TCP"
+            ReferencedContainer = "container:TCP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "40AD20711B329E410056B10D"
-            BuildableName = "TCP&#x8fde;&#x63a5;.app"
-            BlueprintName = "TCP&#x8fde;&#x63a5;"
-            ReferencedContainer = "container:TCP&#x8fde;&#x63a5;.xcodeproj">
+            BuildableName = "TCP.app"
+            BlueprintName = "TCP"
+            ReferencedContainer = "container:TCP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

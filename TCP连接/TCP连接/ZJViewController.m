@@ -6,19 +6,21 @@
 //  Copyright (c) 2015年 Honey. All rights reserved.
 //
 
-#import "QFViewController.h"
+#import "ZJViewController.h"
 
 #import "AsyncSocket.h"     //专门处理tcp的数据发送
 //#import "AsyncUdpSocket.h"  //专门处理udp的数据发送
 
-@interface QFViewController () <AsyncSocketDelegate>
+@interface ZJViewController () <AsyncSocketDelegate>
 {
-    AsyncSocket *_tcpSocket; //声明一个成员变量
+    AsyncSocket *_tcpSocket;
+    UITextField *host;
+    UITextField *msg;
 }
 
 @end
 
-@implementation QFViewController
+@implementation ZJViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,26 +37,43 @@
     // Do any additional setup after loading the view.
     
     _tcpSocket = [[AsyncSocket alloc] init];
-    
-    //要连接目标的ip
-    NSString *host = @"192.168.1.102";
-    
     //要连接目标的port
-    int port = 8888;
-    
     //必须要在连接之前设置代理
     _tcpSocket.delegate = self;
-    
+
     
     //创建连接,异步操作
     //没有设置超时时间
-    [_tcpSocket connectToHost:host onPort:port error:nil];
+    //    [_tcpSocket connectToHost:host onPort:port error:nil];
     
     //[_tcpSocket connectToHost:host onPort:port withTimeout:-1 error:nil];
+
+    
+    
+    //要连接目标的ip
+    
+    host = [[UITextField alloc] initWithFrame:CGRectMake(10, 70, 250, 30)];
+    
+    host.borderStyle = UITextBorderStyleRoundedRect;
+    
+    host.placeholder = @"请输入你要连接的IP";
+    host.text = @"192.168.1.104";
+    
+    [self.view addSubview:host];
+    
+    
+    msg = [[UITextField alloc] initWithFrame:CGRectMake(10, 150, 250, 30)];
+    
+    msg.borderStyle = UITextBorderStyleRoundedRect;
+    
+    msg.placeholder = @"请输入你要发送的内容";
+    
+    [self.view addSubview:msg];
+
     
     UIButton *send = [UIButton buttonWithType:UIButtonTypeSystem];
     
-    send.frame = CGRectMake(10, 30, 300, 50);
+    send.frame = CGRectMake(10, 200, 300, 50);
     
     [send setTitle:@"发送" forState:UIControlStateNormal];
     
@@ -67,9 +86,17 @@
 {
     //发送消息
     //1.网络数据都是二进制数据
-    NSString *mesg = @"约!";
+    NSString *mesg = msg.text;
     
     NSData *data = [mesg dataUsingEncoding:NSUTF8StringEncoding];
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+    
+        [_tcpSocket connectToHost:host.text onPort:8080 error:nil];
+
+    });
+
     
     //2.发送数据
     [_tcpSocket writeData:data withTimeout:-1 tag:100];

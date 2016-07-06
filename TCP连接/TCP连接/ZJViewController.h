@@ -1,5 +1,5 @@
 //
-//  QFViewController.h
+//  ZJViewController.h
 //  TCP连接
 //
 //  Created by Honey on 15/6/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QFViewController : UIViewController
+@interface ZJViewController : UIViewController
 
 @end
